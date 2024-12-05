@@ -1,10 +1,10 @@
 ﻿[cmdletbinding()]
 Param(
-    [Parameter(Manadatory=$true)]
+    [Parameter(Mandatory=$true)]
     $thumbprint,
-    [Parameter(Manadatory=$true)]
+    [Parameter(Mandatory=$true)]
     $Connector,
-    [Parameter(Manadatory=$true)]
+    [Parameter(Mandatory=$true)]
     [ValidateSet("Receive","Send")]
     $ConnectorType
 )
